@@ -1,0 +1,80 @@
+:root{
+    --fuentePrincipal: 62.5%;
+    --fuenteBody:1.3rem;
+    --colorEnlacesNav: #000000;
+    --colorBorderInput: #dfe1e5;
+    --colorBorderInputHover:#20212447;
+    --colorFondoButtons:#f2f2f2;
+    --colorFondoButtonsOscuro:#c6c6c6;
+    --colorLetraButtons: #5f6368;
+    --colorLetraButtonsHover: #222;
+    --colorFondoFooter:#f2f2f2;
+    --colorBorderTopFooter:#e4e4e4;
+    --colorEnlacesFooter: #5f6368;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+
+main .main-logo{
+    width: 30rem;
+}
+
+main .main-logo img{
+    width: 30rem;
+}
+
+main .main-input{
+    width: 30rem;
+}
+
+main .main-input-container{
+    width: 30rem;
+}
+
+main .main-input input{
+    width: 30rem;
+    height:4rem;
+}
+
+main .main-buttons{
+    margin-left: -7.5rem;
+}
+
+main .main-buttons button{
+    margin-right: 1.5rem;;
+}
+
+footer{
+    width: 100%;
+    height:5rem;
+    align-items: center;
+    font-size:1rem;
+}
+
+footer ul{
+    margin:1rem;
+}
+
+footer ul li a{
+    margin:1rem;
+}
+
+@media screen and (min-width:768px){
+    main .main-buttons{
+        margin-left: 12rem;
+    }
+    footer{
+        width: 100%;
+        height:5rem;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size:1.3rem;
+    }
+}

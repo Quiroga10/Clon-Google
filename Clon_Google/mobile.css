@@ -10,7 +10,7 @@ html{
 header{
     margin-bottom: 3rem;
 }
-.navbar{
+header nav{
     display: flex;
     justify-content: flex-end;
     font-size: 1rem;

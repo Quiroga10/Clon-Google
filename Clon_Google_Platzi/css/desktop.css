@@ -1,0 +1,131 @@
+:root{
+    --fuentePrincipal: 62.5%;
+    --fuenteBody:1.3rem;
+    --colorEnlacesNav: #000000;
+    --colorBorderInput: #dfe1e5;
+    --colorBorderInputHover:#20212447;
+    --colorFondoButtons:#f2f2f2;
+    --colorFondoButtonsOscuro:#c6c6c6;
+    --colorLetraButtons: #5f6368;
+    --colorLetraButtonsHover: #222;
+    --colorFondoFooter:#f2f2f2;
+    --colorBorderTopFooter:#e4e4e4;
+    --colorEnlacesFooter: #5f6368;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Main*/
+main{
+    margin-top:15rem;
+}
+
+main .main-logo{
+    width: 53rem;
+}
+
+main .main-logo img{
+    width: 50rem;
+}
+
+main .main-input{
+    width: 70rem;
+}
+
+main .main-input-container{
+    width: 70rem;
+}
+
+main .main-input input{
+    width: 70rem;
+    height:4rem;
+}
+
+main .main-buttons{
+    margin: 0 auto;
+}
+
+main .main-buttons button{
+    margin-right: 1.5rem;;
+}
+
+footer{
+    width: 100%;
+    height:5rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size:1.3rem;
+}
+
+footer ul{
+    margin:1rem;
+}
+
+footer ul li a{
+    margin:1rem;
+}
+
+@media screen and (min-width: 2560px) {
+    header{
+        height:15rem;
+    }
+    header nav{
+        height:10rem;
+    }
+    header nav .nav-right-section{
+        width: 43rem;
+        margin-right: 2rem;
+    }
+    header .nav-right-section a{
+        font-size: 3.5rem;
+    }
+    header .cuentaGoolge-icon img{
+        width: 7rem;
+        height: 7rem;
+    }
+    nav .nav-right-section .menu-icon{
+        width: 7rem;
+        height: 7rem;
+    }
+    nav .nav-right-section img {
+        width: 7rem;
+        height: 7rem;
+    }
+    main .main-logo{
+        width: 80rem;
+    }
+    main .main-logo img{
+        width:70rem;
+    }
+    main .main-input{
+        width: 100rem;
+    }
+    main .main-input-container{
+        width: 100rem;
+    }
+    main .main-input input{
+        width: 100rem;
+        height:7rem;
+    }
+    main .main-input .micro-icon{
+        width: 6rem;
+        height: 3.5rem;
+    }
+    main .main-input .search-icon{
+        width: 6rem;
+        height: 3.5rem;
+    }
+    main .main-buttons{
+        width: 60rem;
+    }
+    main .main-buttons button{
+        font-size:2.5rem;
+        width: 27rem;
+        height: 7rem;
+    }
+}

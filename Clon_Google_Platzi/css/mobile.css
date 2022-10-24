@@ -1,0 +1,201 @@
+:root{
+    --fuentePrincipal: 62.5%;
+    --fuenteBody:1.3rem;
+    --colorEnlacesNav: #000000;
+    --colorBorderInput: #dfe1e5;
+    --colorBorderInputHover:#20212447;
+    --colorFondoButtons:#f2f2f2;
+    --colorFondoButtonsOscuro:#c6c6c6;
+    --colorLetraButtons: #5f6368;
+    --colorLetraButtonsHover: #222;
+    --colorFondoFooter:#f2f2f2;
+    --colorBorderTopFooter:#e4e4e4;
+    --colorEnlacesFooter: #5f6368;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: var(--fuentePrincipal);
+}
+
+body{
+    font-size:var(--fuenteBody);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header*/
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    /* background-color:peru; */
+    width: 100%;
+    height: 6rem;
+}
+
+header nav{
+    /* background-color:red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    /* background-color:yellowgreen; */
+    width: 25rem;
+    height: auto;
+    display:flex;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right:1rem;
+    color: var(--colorEnlacesNav);
+}
+
+nav .nav-right-section .menu-icon{
+    background-image:url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    /* Para que tome o se aproxime al tamaño del contenedor */
+    background-size:contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+/*Main*/
+
+main{
+    /* background-color:yellow; */
+    margin-top:5rem;
+    text-align: center;
+}
+
+main .main-logo{
+    /* background-color:orange; */
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-logo img{
+    width: 30rem;
+}
+
+main .main-input{
+    /* background-color:aqua; */
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom:3.5rem;
+}
+
+main .main-input-container{
+    /* background-color:antiquewhite; */
+    width: 30rem;
+    border-radius:10rem;
+    border: 0.1rem solid var(--colorBorderInput);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+main .main-input input{
+    width: 45rem;
+    height:4rem;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 0.1rem 0.6rem 0 var(--colorBorderInputHover);
+    border-color:#dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 53rem;
+    margin-left: -10.5rem;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height:3.6rem;
+    background-color:var(--colorFondoButtons);
+    border: none;
+    font-size:1.2rem;
+    color: var(--colorLetraButtons);
+    border-radius:0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 0.5rem;
+}
+
+main .main-buttons button:hover{
+    border: 0.1rem solid var(--colorFondoButtonsOscuro);
+    box-shadow: 0 0.1rem 0.1rem #000001;
+    color: var(--colorLetraButtonsHover);
+}
+
+footer{
+    width: 32rem;
+    height:6rem;
+    /*position y bottom me aseguro el footer siempre abajo*/
+    position:absolute;
+    bottom: 0;
+    align-items: center;
+    font-size:1rem;
+    background-color:var(--colorFondoFooter);
+    border-top: 0.1rem solid var(--colorBorderTopFooter);
+}
+
+footer ul{
+    margin:0.5rem;
+    list-style:none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self:left;
+}
+
+footer .footer-right{
+    justify-self:right;
+}
+
+footer ul li a{
+    margin:0.5rem;
+    color:var(--colorEnlacesFooter);
+}
