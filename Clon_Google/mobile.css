@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    margin-bottom: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    margin: 2rem 1.5rem 0 0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 1rem;
+}
+
+li .google-apps{
+    width: 1.5rem;
+}
+
+li .cuenta-google{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+article{
+    width: 100vw;
+    height: 87vh;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+.container-ico {
+    position: relative;
+    display: flex;
+    width: 25rem;
+}
+.ico-google, .ico-voz{
+    width: 1rem;
+}
+
+.ico-google{
+    position: absolute;
+    left: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.ico-voz {
+    position: absolute;
+    left: 22.2rem;
+    top: 25%;
+}
+
+.section-1 input {
+    border-radius: 10rem;
+    width: 25rem;
+}
+
+.section-1 picture{
+    margin-bottom:2rem;
+}
+
+.container-button{
+    margin-top:1rem;
+}
+
+button{
+    width: 12rem;
+    height: 3rem;
+    background-color: rgb(232, 232, 232);
+    border-radius:0.5rem;
+    border: 0.1rem solid rgb(232, 232, 232);
+}
+
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(232, 232, 232);
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+}
+
+footer .nav-f1, .nav-f2{
+    display:flex;
+}
+
+.nav-f1 ul li a, .nav-f2 ul li a{
+    font-size: 0.5rem;
+    background-color:white;
+}

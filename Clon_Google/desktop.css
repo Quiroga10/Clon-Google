@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.navbar{
+    font-size:1.5rem;
+}
+
+.container-ico{
+    width: 60rem;
+    height:3.5rem;
+}
+
+.section-1 input{
+    width: 60rem;
+}
+
+.ico-google, .ico-voz{
+    width: 2rem;
+}
+
+.ico-voz{
+    left:55rem;
+}
+
+button{
+    width: 15rem;
+    height: 4rem;
+}
+
+.container-button button a{
+   font-size: 1.5rem;
+}
+
+article{
+    margin-top: 14rem;
+    height: 80vh;
+}
+
+.nav-f1 ul li a, .nav-f2 ul li a{
+    font-size: 1.5rem;
+}
