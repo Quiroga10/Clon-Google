@@ -35,14 +35,19 @@ button{
 }
 
 .container-button button a{
-   font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 article{
-    margin-top: 14rem;
-    height: 80vh;
+    margin-top: 17rem;
+    height: 75vh;
 }
 
 .nav-f1 ul li a, .nav-f2 ul li a{
     font-size: 1.5rem;
+    padding:5rem;
+}
+
+footer{
+    height: 5.5rem;
 }

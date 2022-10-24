@@ -95,12 +95,12 @@ a{
     font-size: 1rem;
     text-decoration: none;
     color: black;
-    background-color: rgb(232, 232, 232);
 }
 
 footer{
     display:flex;
     justify-content:space-between;
+    background-color: rgb(232, 230, 230);
 }
 
 footer .nav-f1, .nav-f2{
@@ -109,5 +109,4 @@ footer .nav-f1, .nav-f2{
 
 .nav-f1 ul li a, .nav-f2 ul li a{
     font-size: 0.5rem;
-    background-color:white;
 }
